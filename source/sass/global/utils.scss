@@ -1,12 +1,15 @@
 .wrapper {
   position: relative;
-  background-color: #fdfdff;
+  /*background-color: #fdfdff;*/
 
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   /* stylelint-disable-next-line */
   min-height: calc(100 * var(--vh, 1vh));
+  background-color: $color-black-russian;
+  background-image: url("../../img/pattern-backgroung-body.png");
+  background-repeat: repeat;
 
   .header,
   .footer {
