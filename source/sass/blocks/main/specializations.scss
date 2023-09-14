@@ -1,6 +1,7 @@
 .specializations {
   width: 100%;
   padding: 25px 50px;
+  margin-bottom: 89px;
 }
 
 .specializations__wrapper {
@@ -48,7 +49,8 @@
   z-index: 0;
 }
 
-.specializations__project--first .specializations__project--fourth {
+.specializations__project--first,
+.specializations__project--fourth {
   bottom: 130px;
 }
 
