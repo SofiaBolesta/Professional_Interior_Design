@@ -1,6 +1,7 @@
 .header {
   width: 100%;
   padding: 25px 50px;
+  margin-bottom: 140px;
 }
 
 .header__wrapper {
@@ -81,6 +82,12 @@
   max-width: 680px;
   margin: 0 0 250px;
   z-index: 1;
+}
+
+.header__gold-stars {
+  position: absolute;
+  top: -75px;
+  right: 65px;
 }
 
 .header__section h2 {
