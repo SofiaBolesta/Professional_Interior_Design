@@ -2488,6 +2488,27 @@ button,
   margin: 0 20px;
 }
 
+.gallery {
+  max-width: 100%;
+  padding: 25px 50px;
+  margin-bottom: 70px;
+}
+
+.gallery__wrapper {
+  max-width: 1807px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* rjb */
 /* @mixin hover-focus {
     @media (hover: hover) {
       &:hover:not(.focus-visible) {
